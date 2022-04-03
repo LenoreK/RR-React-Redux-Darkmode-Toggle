@@ -44,4 +44,4 @@ function App() {
 
 const mapStateToProps = (state, ownProps) => {{ objectId: state.data.objectId}}
 
-export default App;
+export default connect(mapStatetoProps) (App);
